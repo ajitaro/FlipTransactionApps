@@ -58,7 +58,7 @@ const Sorting = (props: SortingProps) => {
     <>
       <Pressable style={styles.flexRow} onPress={openModal}>
         <Text style={localStyles.sortByText}>
-          {Strings.sortBy.toUpperCase()}
+          {sortingOptions[checkedIndex]}
         </Text>
         <Icon name="chevron-down" size={20} color={Colors.orange} />
       </Pressable>

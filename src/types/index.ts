@@ -1,5 +1,5 @@
 export enum SortingType {
-  SORT_BY = 'Urutkan',
+  SORT_BY = 'URUTKAN',
   A_TO_Z = 'Nama A-Z',
   Z_TO_A = 'Nama Z-A',
   NEWEST_DATE = 'Tanggal Terbaru',
